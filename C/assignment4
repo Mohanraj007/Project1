@@ -1,0 +1,13 @@
+#include <stdio.h>
+int count=2;
+int main(void) {
+	int cnt=0;
+	{
+		int cnt=0;
+		printf(cnt++);
+		printf(++count);
+	}
+	 printf(++cnt);
+	 printf(++count);
+	return 0;
+}
