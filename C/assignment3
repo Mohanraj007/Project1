@@ -1,0 +1,9 @@
+    #include <stdio.h>
+     
+    int main(void) {
+    	int a;
+    	printf("Your age is 20 years old");
+    	scanf("%d",&a);
+    	return 0;
+    }
+     
